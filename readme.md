@@ -56,14 +56,12 @@ Ensure ROS Noetic is properly installed on your system. Instructions can be foun
 2. **Launch the `scene_segmentation_node`**:
 
     ```bash
-    roslaunch objecttracker_pillar objecttracker.launch
+    roslaunch scene_segmentation_pillar scene_segmentation.launch
     ```
 
     Ensure you have the `scene_segmentation.launch` file set up as described in the package documentation.
 
 ### Running the Standalone Demo
-
-If you prefer not to use ROS, a standalone `demo.py` is included. This script demonstrates object tracking functionality without the need for ROS infrastructure.
 
 1. **Navigate to the script's directory**:
 
