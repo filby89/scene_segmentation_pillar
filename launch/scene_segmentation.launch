@@ -1,5 +1,0 @@
-<launch>
-  <!-- Node for face tracking -->
-  <node name="scene_segmentation_node" pkg="scene_segmentation_pillar" type="scene_segmentation_node.py" output="screen">
-  </node>
-</launch>
